@@ -3,7 +3,7 @@ layout: post
 title: Live dependencies
 ---
 
-# Release status
+## Release status
 
 | software         | github-release | pypi    | conda-forge |
 | ---------------- | -------------- | ------- | ----------- |
@@ -21,23 +21,43 @@ title: Live dependencies
 | progressbar      | ![][30]        |         | ![][31]     |
 | scipy-sugar      | ![][32]        | ![][33] | ![][34]     |
 
-| software         | github-release | pypi    | conda-forge | doc     | travis  | appveyor |
-| ---------------- | -------------- | ------- | ----------- | ------- | ------- | -------- |
-| bgen             | ![][1]         |         | ![][2]      | ![][35] | ![][36] | ![][37]  |
-| bgen-reader      | ![][3]         | ![][4]  |             |         |         |          |
-| glimix-core      | ![][5]         | ![][6]  | ![][7]      | ![][38] | ![][39] |          |
-| hcephes          | ![][8]         |         | ![][9]      |         | ![][40] | ![][41]  |
-| liknorm          | ![][10]        |         | ![][11]     | ![][42] | ![][43] | ![][44]  |
-| liknorm-py       | ![][12]        | ![][13] | ![][14]     |         | ![][45] |          |
-| limix            | ![][15]        | ![][16] | ![][17]     | ![][46] | ![][47] |          |
-| ndarray-listener | ![][18]        | ![][19] | ![][20]     | ![][48] | ![][49] |          |
-| numpy-sugar      | ![][21]        | ![][22] | ![][23]     | ![][50] | ![][51] |          |
-| optimix          | ![][24]        | ![][25] | ![][26]     | ![][52] | ![][53] |          |
-| pandas-plink     | ![][27]        | ![][28] | ![][29]     | ![][54] | ![][55] |          |
-| progressbar      | ![][30]        |         | ![][31]     |         | ![][56] | ![][57]  |
-| scipy-sugar      | ![][32]        | ![][33] | ![][34]     | ![][58] | ![][59] |          |
+## Build status
 
-# Development status
+| software         | travis-master | appveyor-master | travis-dev | appveyor-dev |
+| ---------------- | ------------- | --------------- | ---------- | ------------ |
+| bgen             | ![][36]       | ![][37]         | ![][61]    | ![][62]      |
+| bgen-reader      |               |                 |            |              |
+| glimix-core      | ![][39]       |                 | ![][64]    |              |
+| hcephes          | ![][40]       | ![][41]         | ![][65]    | ![][66]      |
+| liknorm          | ![][43]       | ![][44]         | ![][68]    | ![][69]      |
+| liknorm-py       | ![][45]       |                 | ![][70]    |              |
+| limix            | ![][47]       |                 | ![][72]    |              |
+| ndarray-listener | ![][49]       |                 | ![][74]    |              |
+| numpy-sugar      | ![][51]       |                 | ![][76]    |              |
+| optimix          | ![][53]       |                 | ![][78]    |              |
+| pandas-plink     | ![][55]       |                 | ![][80]    |              |
+| progressbar      | ![][56]       | ![][57]         | ![][81]    | ![][82]      |
+| scipy-sugar      | ![][59]       |                 | ![][84]    |              |
+
+## Build status2
+
+| software         | doc     | travis  | appveyor |
+| ---------------- | ------- | ------- | -------- |
+| bgen             | ![][35] | ![][36] | ![][37]  |
+| bgen-reader      |         |         |          |
+| glimix-core      | ![][38] | ![][39] |          |
+| hcephes          |         | ![][40] | ![][41]  |
+| liknorm          | ![][42] | ![][43] | ![][44]  |
+| liknorm-py       |         | ![][45] |          |
+| limix            | ![][46] | ![][47] |          |
+| ndarray-listener | ![][48] | ![][49] |          |
+| numpy-sugar      | ![][50] | ![][51] |          |
+| optimix          | ![][52] | ![][53] |          |
+| pandas-plink     | ![][54] | ![][55] |          |
+| progressbar      |         | ![][56] | ![][57]  |
+| scipy-sugar      | ![][58] | ![][59] |          |
+
+## Development status
 
 | software         | doc     | travis  | appveyor |
 | ---------------- | ------- | ------- | -------- |
