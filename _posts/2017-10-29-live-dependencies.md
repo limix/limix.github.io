@@ -5,52 +5,220 @@ title: Live dependencies
 
 # Release status
 
-| software         | github-release                                                                                                        | pypi                                                                                                 | conda-forge                                                                                                                |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| bgen             | ![https://github.com/limix/bgen/releases/latest](https://img.shields.io/github/release/limix/bgen.svg)                |                                                                                                      | ![https://anaconda.org/conda-forge/bgen](https://anaconda.org/conda-forge/bgen/badges/version.svg)                         |
-| bgen-reader      | ![https://github.com/limix/bgen-reader/tag/latest](https://img.shields.io/github/tag/limix/bgen-reader.svg)           | ![https://pypi.python.org/pypi/bgen-reader](https://img.shields.io/pypi/v/bgen-reader.svg)           |                                                                                                                            |
-| glimix-core      | ![https://github.com/limix/glimix-core/tag/latest](https://img.shields.io/github/tag/limix/glimix-core.svg)           | ![https://pypi.python.org/pypi/glimix-core](https://img.shields.io/pypi/v/glimix-core.svg)           | ![https://anaconda.org/conda-forge/glimix-core](https://anaconda.org/conda-forge/glimix-core/badges/version.svg)           |
-| hcephes          | ![https://github.com/limix/hcephes/releases/latest](https://img.shields.io/github/release/limix/hcephes.svg)          |                                                                                                      | ![https://anaconda.org/conda-forge/hcephes](https://anaconda.org/conda-forge/hcephes/badges/version.svg)                   |
-| liknorm          | ![https://github.com/limix/liknorm/releases/latest](https://img.shields.io/github/release/limix/liknorm.svg)          |                                                                                                      | ![https://anaconda.org/conda-forge/liknorm](https://anaconda.org/conda-forge/liknorm/badges/version.svg)                   |
-| liknorm-py       | ![https://github.com/limix/liknorm-py/tag/latest](https://img.shields.io/github/tag/limix/liknorm-py.svg)             | ![https://pypi.python.org/pypi/liknorm](https://img.shields.io/pypi/v/liknorm.svg)                   | ![https://anaconda.org/conda-forge/liknorm-py](https://anaconda.org/conda-forge/liknorm-py/badges/version.svg)             |
-| limix            | ![https://github.com/limix/limix/tag/latest](https://img.shields.io/github/tag/limix/limix.svg)                       | ![https://pypi.python.org/pypi/limix](https://img.shields.io/pypi/v/limix.svg)                       | ![https://anaconda.org/conda-forge/limix](https://anaconda.org/conda-forge/limix/badges/version.svg)                       |
-| ndarray-listener | ![https://github.com/limix/ndarray-listener/tag/latest](https://img.shields.io/github/tag/limix/ndarray-listener.svg) | ![https://pypi.python.org/pypi/ndarray-listener](https://img.shields.io/pypi/v/ndarray-listener.svg) | ![https://anaconda.org/conda-forge/ndarray-listener](https://anaconda.org/conda-forge/ndarray-listener/badges/version.svg) |
-| numpy-sugar      | ![https://github.com/limix/numpy-sugar/tag/latest](https://img.shields.io/github/tag/limix/numpy-sugar.svg)           | ![https://pypi.python.org/pypi/numpy-sugar](https://img.shields.io/pypi/v/numpy-sugar.svg)           | ![https://anaconda.org/conda-forge/numpy-sugar](https://anaconda.org/conda-forge/numpy-sugar/badges/version.svg)           |
-| optimix          | ![https://github.com/limix/optimix/tag/latest](https://img.shields.io/github/tag/limix/optimix.svg)                   | ![https://pypi.python.org/pypi/optimix](https://img.shields.io/pypi/v/optimix.svg)                   | ![https://anaconda.org/conda-forge/optimix](https://anaconda.org/conda-forge/optimix/badges/version.svg)                   |
-| pandas-plink     | ![https://github.com/limix/pandas-plink/tag/latest](https://img.shields.io/github/tag/limix/pandas-plink.svg)         | ![https://pypi.python.org/pypi/pandas-plink](https://img.shields.io/pypi/v/pandas-plink.svg)         | ![https://anaconda.org/conda-forge/pandas-plink](https://anaconda.org/conda-forge/pandas-plink/badges/version.svg)         |
-| progressbar      | ![https://github.com/limix/progressbar/releases/latest](https://img.shields.io/github/release/limix/progressbar.svg)  |                                                                                                      | ![https://anaconda.org/conda-forge/c-progressbar](https://anaconda.org/conda-forge/c-progressbar/badges/version.svg)       |
-| scipy-sugar      | ![https://github.com/limix/scipy-sugar/tag/latest](https://img.shields.io/github/tag/limix/scipy-sugar.svg)           | ![https://pypi.python.org/pypi/scipy-sugar](https://img.shields.io/pypi/v/scipy-sugar.svg)           | ![https://anaconda.org/conda-forge/scipy-sugar](https://anaconda.org/conda-forge/scipy-sugar/badges/version.svg)           |
+| software         | github-release | pypi    | conda-forge |
+| ---------------- | -------------- | ------- | ----------- |
+| bgen             | ![][1]         |         | ![][2]      |
+| bgen-reader      | ![][3]         | ![][4]  |             |
+| glimix-core      | ![][5]         | ![][6]  | ![][7]      |
+| hcephes          | ![][8]         |         | ![][9]      |
+| liknorm          | ![][10]        |         | ![][11]     |
+| liknorm-py       | ![][12]        | ![][13] | ![][14]     |
+| limix            | ![][15]        | ![][16] | ![][17]     |
+| ndarray-listener | ![][18]        | ![][19] | ![][20]     |
+| numpy-sugar      | ![][21]        | ![][22] | ![][23]     |
+| optimix          | ![][24]        | ![][25] | ![][26]     |
+| pandas-plink     | ![][27]        | ![][28] | ![][29]     |
+| progressbar      | ![][30]        |         | ![][31]     |
+| scipy-sugar      | ![][32]        | ![][33] | ![][34]     |
 
-| software         | github-release                                                                                                        | pypi                                                                                                 | conda-forge                                                                                                                | doc                                                                                                                                        | travis                                                                                                           | appveyor                                                                                                                                                |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| bgen             | ![https://github.com/limix/bgen/releases/latest](https://img.shields.io/github/release/limix/bgen.svg)                |                                                                                                      | ![https://anaconda.org/conda-forge/bgen](https://anaconda.org/conda-forge/bgen/badges/version.svg)                         | ![http://bgen.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/bgen/badge/?version=stable)                         | ![https://travis-ci.org/limix/bgen](https://img.shields.io/travis/limix/bgen/master.svg)                         | ![https://ci.appveyor.com/project/Horta/bgen/branch/master](https://ci.appveyor.com/api/projects/status/9ygi9jksbgikb87y/branch/master?svg=true)        |
-| bgen-reader      | ![https://github.com/limix/bgen-reader/tag/latest](https://img.shields.io/github/tag/limix/bgen-reader.svg)           | ![https://pypi.python.org/pypi/bgen-reader](https://img.shields.io/pypi/v/bgen-reader.svg)           |                                                                                                                            |                                                                                                                                            |                                                                                                                  |                                                                                                                                                         |
-| glimix-core      | ![https://github.com/limix/glimix-core/tag/latest](https://img.shields.io/github/tag/limix/glimix-core.svg)           | ![https://pypi.python.org/pypi/glimix-core](https://img.shields.io/pypi/v/glimix-core.svg)           | ![https://anaconda.org/conda-forge/glimix-core](https://anaconda.org/conda-forge/glimix-core/badges/version.svg)           | ![http://glimix-core.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/glimix-core/badge/?version=stable)           | ![https://travis-ci.org/limix/glimix-core](https://img.shields.io/travis/limix/glimix-core/master.svg)           |                                                                                                                                                         |
-| hcephes          | ![https://github.com/limix/hcephes/releases/latest](https://img.shields.io/github/release/limix/hcephes.svg)          |                                                                                                      | ![https://anaconda.org/conda-forge/hcephes](https://anaconda.org/conda-forge/hcephes/badges/version.svg)                   |                                                                                                                                            | ![https://travis-ci.org/limix/hcephes](https://img.shields.io/travis/limix/hcephes/master.svg)                   | ![https://ci.appveyor.com/project/Horta/hcephes/branch/master](https://ci.appveyor.com/api/projects/status/enlpm6cfltjy7h3m/branch/master?svg=true)     |
-| liknorm          | ![https://github.com/limix/liknorm/releases/latest](https://img.shields.io/github/release/limix/liknorm.svg)          |                                                                                                      | ![https://anaconda.org/conda-forge/liknorm](https://anaconda.org/conda-forge/liknorm/badges/version.svg)                   | ![http://liknorm.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/liknorm/badge/?version=stable)                   | ![https://travis-ci.org/limix/liknorm](https://img.shields.io/travis/limix/liknorm/master.svg)                   | ![https://ci.appveyor.com/project/Horta/liknorm/branch/master](https://ci.appveyor.com/api/projects/status/kb4b4rcsm4t60bg5/branch/master?svg=true)     |
-| liknorm-py       | ![https://github.com/limix/liknorm-py/tag/latest](https://img.shields.io/github/tag/limix/liknorm-py.svg)             | ![https://pypi.python.org/pypi/liknorm](https://img.shields.io/pypi/v/liknorm.svg)                   | ![https://anaconda.org/conda-forge/liknorm-py](https://anaconda.org/conda-forge/liknorm-py/badges/version.svg)             |                                                                                                                                            | ![https://travis-ci.org/limix/liknorm-py](https://img.shields.io/travis/limix/liknorm-py/master.svg)             |                                                                                                                                                         |
-| limix            | ![https://github.com/limix/limix/tag/latest](https://img.shields.io/github/tag/limix/limix.svg)                       | ![https://pypi.python.org/pypi/limix](https://img.shields.io/pypi/v/limix.svg)                       | ![https://anaconda.org/conda-forge/limix](https://anaconda.org/conda-forge/limix/badges/version.svg)                       | ![http://limix.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/limix/badge/?version=stable)                       | ![https://travis-ci.org/limix/limix](https://img.shields.io/travis/limix/limix/master.svg)                       |                                                                                                                                                         |
-| ndarray-listener | ![https://github.com/limix/ndarray-listener/tag/latest](https://img.shields.io/github/tag/limix/ndarray-listener.svg) | ![https://pypi.python.org/pypi/ndarray-listener](https://img.shields.io/pypi/v/ndarray-listener.svg) | ![https://anaconda.org/conda-forge/ndarray-listener](https://anaconda.org/conda-forge/ndarray-listener/badges/version.svg) | ![http://ndarray-listener.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/ndarray-listener/badge/?version=stable) | ![https://travis-ci.org/limix/ndarray-listener](https://img.shields.io/travis/limix/ndarray-listener/master.svg) |                                                                                                                                                         |
-| numpy-sugar      | ![https://github.com/limix/numpy-sugar/tag/latest](https://img.shields.io/github/tag/limix/numpy-sugar.svg)           | ![https://pypi.python.org/pypi/numpy-sugar](https://img.shields.io/pypi/v/numpy-sugar.svg)           | ![https://anaconda.org/conda-forge/numpy-sugar](https://anaconda.org/conda-forge/numpy-sugar/badges/version.svg)           | ![http://numpy-sugar.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/numpy-sugar/badge/?version=stable)           | ![https://travis-ci.org/limix/numpy-sugar](https://img.shields.io/travis/limix/numpy-sugar/master.svg)           |                                                                                                                                                         |
-| optimix          | ![https://github.com/limix/optimix/tag/latest](https://img.shields.io/github/tag/limix/optimix.svg)                   | ![https://pypi.python.org/pypi/optimix](https://img.shields.io/pypi/v/optimix.svg)                   | ![https://anaconda.org/conda-forge/optimix](https://anaconda.org/conda-forge/optimix/badges/version.svg)                   | ![http://optimix.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/optimix/badge/?version=stable)                   | ![https://travis-ci.org/limix/optimix](https://img.shields.io/travis/limix/optimix/master.svg)                   |                                                                                                                                                         |
-| pandas-plink     | ![https://github.com/limix/pandas-plink/tag/latest](https://img.shields.io/github/tag/limix/pandas-plink.svg)         | ![https://pypi.python.org/pypi/pandas-plink](https://img.shields.io/pypi/v/pandas-plink.svg)         | ![https://anaconda.org/conda-forge/pandas-plink](https://anaconda.org/conda-forge/pandas-plink/badges/version.svg)         | ![http://pandas-plink.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/pandas-plink/badge/?version=stable)         | ![https://travis-ci.org/limix/pandas-plink](https://img.shields.io/travis/limix/pandas-plink/master.svg)         |                                                                                                                                                         |
-| progressbar      | ![https://github.com/limix/progressbar/releases/latest](https://img.shields.io/github/release/limix/progressbar.svg)  |                                                                                                      | ![https://anaconda.org/conda-forge/c-progressbar](https://anaconda.org/conda-forge/c-progressbar/badges/version.svg)       |                                                                                                                                            | ![https://travis-ci.org/limix/progressbar](https://img.shields.io/travis/limix/progressbar/master.svg)           | ![https://ci.appveyor.com/project/Horta/progressbar/branch/master](https://ci.appveyor.com/api/projects/status/ccu47dffb2qvi8sa/branch/master?svg=true) |
-| scipy-sugar      | ![https://github.com/limix/scipy-sugar/tag/latest](https://img.shields.io/github/tag/limix/scipy-sugar.svg)           | ![https://pypi.python.org/pypi/scipy-sugar](https://img.shields.io/pypi/v/scipy-sugar.svg)           | ![https://anaconda.org/conda-forge/scipy-sugar](https://anaconda.org/conda-forge/scipy-sugar/badges/version.svg)           | ![http://scipy-sugar.readthedocs.io/en/stable/?badge=stable](https://readthedocs.org/projects/scipy-sugar/badge/?version=stable)           | ![https://travis-ci.org/limix/scipy-sugar](https://img.shields.io/travis/limix/scipy-sugar/master.svg)           |                                                                                                                                                         |
+| software         | github-release | pypi    | conda-forge | doc     | travis  | appveyor |
+| ---------------- | -------------- | ------- | ----------- | ------- | ------- | -------- |
+| bgen             | ![][1]         |         | ![][2]      | ![][35] | ![][36] | ![][37]  |
+| bgen-reader      | ![][3]         | ![][4]  |             |         |         |          |
+| glimix-core      | ![][5]         | ![][6]  | ![][7]      | ![][38] | ![][39] |          |
+| hcephes          | ![][8]         |         | ![][9]      |         | ![][40] | ![][41]  |
+| liknorm          | ![][10]        |         | ![][11]     | ![][42] | ![][43] | ![][44]  |
+| liknorm-py       | ![][12]        | ![][13] | ![][14]     |         | ![][45] |          |
+| limix            | ![][15]        | ![][16] | ![][17]     | ![][46] | ![][47] |          |
+| ndarray-listener | ![][18]        | ![][19] | ![][20]     | ![][48] | ![][49] |          |
+| numpy-sugar      | ![][21]        | ![][22] | ![][23]     | ![][50] | ![][51] |          |
+| optimix          | ![][24]        | ![][25] | ![][26]     | ![][52] | ![][53] |          |
+| pandas-plink     | ![][27]        | ![][28] | ![][29]     | ![][54] | ![][55] |          |
+| progressbar      | ![][30]        |         | ![][31]     |         | ![][56] | ![][57]  |
+| scipy-sugar      | ![][32]        | ![][33] | ![][34]     | ![][58] | ![][59] |          |
 
 # Development status
 
-| software         | doc                                                                                                                                           | travis                                                                                                            | appveyor                                                                                                                                                  |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| bgen             | ![http://bgen.readthedocs.io/en/stable/?badge=develop](https://readthedocs.org/projects/bgen/badge/?version=develop)                          | ![https://travis-ci.org/limix/bgen](https://img.shields.io/travis/limix/bgen/develop.svg)                         | ![https://ci.appveyor.com/project/Horta/bgen/branch/develop](https://ci.appveyor.com/api/projects/status/9ygi9jksbgikb87y/branch/develop?svg=true)        |
-| bgen-reader      |                                                                                                                                               |                                                                                                                   |                                                                                                                                                           |
-| glimix-core      | ![http://glimix-core.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/glimix-core/badge/?version=develop)           | ![https://travis-ci.org/limix/glimix-core](https://img.shields.io/travis/limix/glimix-core/develop.svg)           |                                                                                                                                                           |
-| hcephes          |                                                                                                                                               | ![https://travis-ci.org/limix/hcephes](https://img.shields.io/travis/limix/hcephes/develop.svg)                   | ![https://ci.appveyor.com/project/Horta/hcephes/branch/develop](https://ci.appveyor.com/api/projects/status/enlpm6cfltjy7h3m/branch/develop?svg=true)     |
-| liknorm          | ![http://liknorm.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/liknorm/badge/?version=develop)                   | ![https://travis-ci.org/limix/liknorm](https://img.shields.io/travis/limix/liknorm/develop.svg)                   | ![https://ci.appveyor.com/project/Horta/liknorm/branch/develop](https://ci.appveyor.com/api/projects/status/kb4b4rcsm4t60bg5/branch/develop?svg=true)     |
-| liknorm-py       |                                                                                                                                               | ![https://travis-ci.org/limix/liknorm-py](https://img.shields.io/travis/limix/liknorm-py/develop.svg)             |                                                                                                                                                           |
-| limix            | ![http://limix.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/limix/badge/?version=develop)                       | ![https://travis-ci.org/limix/limix](https://img.shields.io/travis/limix/limix/develop.svg)                       |                                                                                                                                                           |
-| ndarray-listener | ![http://ndarray-listener.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/ndarray-listener/badge/?version=develop) | ![https://travis-ci.org/limix/ndarray-listener](https://img.shields.io/travis/limix/ndarray-listener/develop.svg) |                                                                                                                                                           |
-| numpy-sugar      | ![http://numpy-sugar.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/numpy-sugar/badge/?version=develop)           | ![https://travis-ci.org/limix/numpy-sugar](https://img.shields.io/travis/limix/numpy-sugar/develop.svg)           |                                                                                                                                                           |
-| optimix          | ![http://optimix.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/optimix/badge/?version=develop)                   | ![https://travis-ci.org/limix/optimix](https://img.shields.io/travis/limix/optimix/develop.svg)                   |                                                                                                                                                           |
-| pandas-plink     | ![http://pandas-plink.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/pandas-plink/badge/?version=develop)         | ![https://travis-ci.org/limix/pandas-plink](https://img.shields.io/travis/limix/pandas-plink/develop.svg)         |                                                                                                                                                           |
-| progressbar      |                                                                                                                                               | ![https://travis-ci.org/limix/progressbar](https://img.shields.io/travis/limix/progressbar/develop.svg)           | ![https://ci.appveyor.com/project/Horta/progressbar/branch/develop](https://ci.appveyor.com/api/projects/status/ccu47dffb2qvi8sa/branch/develop?svg=true) |
-| scipy-sugar      | ![http://scipy-sugar.readthedocs.io/en/develop/?badge=develop](https://readthedocs.org/projects/scipy-sugar/badge/?version=develop)           | ![https://travis-ci.org/limix/scipy-sugar](https://img.shields.io/travis/limix/scipy-sugar/develop.svg)           |                                                                                                                                                           |
+| software         | doc     | travis  | appveyor |
+| ---------------- | ------- | ------- | -------- |
+| bgen             | ![][60] | ![][61] | ![][62]  |
+| bgen-reader      |         |         |          |
+| glimix-core      | ![][63] | ![][64] |          |
+| hcephes          |         | ![][65] | ![][66]  |
+| liknorm          | ![][67] | ![][68] | ![][69]  |
+| liknorm-py       |         | ![][70] |          |
+| limix            | ![][71] | ![][72] |          |
+| ndarray-listener | ![][73] | ![][74] |          |
+| numpy-sugar      | ![][75] | ![][76] |          |
+| optimix          | ![][77] | ![][78] |          |
+| pandas-plink     | ![][79] | ![][80] |          |
+| progressbar      |         | ![][81] | ![][82]  |
+| scipy-sugar      | ![][83] | ![][84] |          |
+
+[1]: https://img.shields.io/github/release/limix/bgen.svg
+
+[2]: https://anaconda.org/conda-forge/bgen/badges/version.svg
+
+[3]: https://img.shields.io/github/tag/limix/bgen-reader.svg
+
+[4]: https://img.shields.io/pypi/v/bgen-reader.svg
+
+[5]: https://img.shields.io/github/tag/limix/glimix-core.svg
+
+[6]: https://img.shields.io/pypi/v/glimix-core.svg
+
+[7]: https://anaconda.org/conda-forge/glimix-core/badges/version.svg
+
+[8]: https://img.shields.io/github/release/limix/hcephes.svg
+
+[9]: https://anaconda.org/conda-forge/hcephes/badges/version.svg
+
+[10]: https://img.shields.io/github/release/limix/liknorm.svg
+
+[11]: https://anaconda.org/conda-forge/liknorm/badges/version.svg
+
+[12]: https://img.shields.io/github/tag/limix/liknorm-py.svg
+
+[13]: https://img.shields.io/pypi/v/liknorm.svg
+
+[14]: https://anaconda.org/conda-forge/liknorm-py/badges/version.svg
+
+[15]: https://img.shields.io/github/tag/limix/limix.svg
+
+[16]: https://img.shields.io/pypi/v/limix.svg
+
+[17]: https://anaconda.org/conda-forge/limix/badges/version.svg
+
+[18]: https://img.shields.io/github/tag/limix/ndarray-listener.svg
+
+[19]: https://img.shields.io/pypi/v/ndarray-listener.svg
+
+[20]: https://anaconda.org/conda-forge/ndarray-listener/badges/version.svg
+
+[21]: https://img.shields.io/github/tag/limix/numpy-sugar.svg
+
+[22]: https://img.shields.io/pypi/v/numpy-sugar.svg
+
+[23]: https://anaconda.org/conda-forge/numpy-sugar/badges/version.svg
+
+[24]: https://img.shields.io/github/tag/limix/optimix.svg
+
+[25]: https://img.shields.io/pypi/v/optimix.svg
+
+[26]: https://anaconda.org/conda-forge/optimix/badges/version.svg
+
+[27]: https://img.shields.io/github/tag/limix/pandas-plink.svg
+
+[28]: https://img.shields.io/pypi/v/pandas-plink.svg
+
+[29]: https://anaconda.org/conda-forge/pandas-plink/badges/version.svg
+
+[30]: https://img.shields.io/github/release/limix/progressbar.svg
+
+[31]: https://anaconda.org/conda-forge/c-progressbar/badges/version.svg
+
+[32]: https://img.shields.io/github/tag/limix/scipy-sugar.svg
+
+[33]: https://img.shields.io/pypi/v/scipy-sugar.svg
+
+[34]: https://anaconda.org/conda-forge/scipy-sugar/badges/version.svg
+
+[35]: https://readthedocs.org/projects/bgen/badge/?version=stable
+
+[36]: https://img.shields.io/travis/limix/bgen/master.svg
+
+[37]: https://ci.appveyor.com/api/projects/status/9ygi9jksbgikb87y/branch/master?svg=true
+
+[38]: https://readthedocs.org/projects/glimix-core/badge/?version=stable
+
+[39]: https://img.shields.io/travis/limix/glimix-core/master.svg
+
+[40]: https://img.shields.io/travis/limix/hcephes/master.svg
+
+[41]: https://ci.appveyor.com/api/projects/status/enlpm6cfltjy7h3m/branch/master?svg=true
+
+[42]: https://readthedocs.org/projects/liknorm/badge/?version=stable
+
+[43]: https://img.shields.io/travis/limix/liknorm/master.svg
+
+[44]: https://ci.appveyor.com/api/projects/status/kb4b4rcsm4t60bg5/branch/master?svg=true
+
+[45]: https://img.shields.io/travis/limix/liknorm-py/master.svg
+
+[46]: https://readthedocs.org/projects/limix/badge/?version=stable
+
+[47]: https://img.shields.io/travis/limix/limix/master.svg
+
+[48]: https://readthedocs.org/projects/ndarray-listener/badge/?version=stable
+
+[49]: https://img.shields.io/travis/limix/ndarray-listener/master.svg
+
+[50]: https://readthedocs.org/projects/numpy-sugar/badge/?version=stable
+
+[51]: https://img.shields.io/travis/limix/numpy-sugar/master.svg
+
+[52]: https://readthedocs.org/projects/optimix/badge/?version=stable
+
+[53]: https://img.shields.io/travis/limix/optimix/master.svg
+
+[54]: https://readthedocs.org/projects/pandas-plink/badge/?version=stable
+
+[55]: https://img.shields.io/travis/limix/pandas-plink/master.svg
+
+[56]: https://img.shields.io/travis/limix/progressbar/master.svg
+
+[57]: https://ci.appveyor.com/api/projects/status/ccu47dffb2qvi8sa/branch/master?svg=true
+
+[58]: https://readthedocs.org/projects/scipy-sugar/badge/?version=stable
+
+[59]: https://img.shields.io/travis/limix/scipy-sugar/master.svg
+
+[60]: https://readthedocs.org/projects/bgen/badge/?version=develop
+
+[61]: https://img.shields.io/travis/limix/bgen/develop.svg
+
+[62]: https://ci.appveyor.com/api/projects/status/9ygi9jksbgikb87y/branch/develop?svg=true
+
+[63]: https://readthedocs.org/projects/glimix-core/badge/?version=develop
+
+[64]: https://img.shields.io/travis/limix/glimix-core/develop.svg
+
+[65]: https://img.shields.io/travis/limix/hcephes/develop.svg
+
+[66]: https://ci.appveyor.com/api/projects/status/enlpm6cfltjy7h3m/branch/develop?svg=true
+
+[67]: https://readthedocs.org/projects/liknorm/badge/?version=develop
+
+[68]: https://img.shields.io/travis/limix/liknorm/develop.svg
+
+[69]: https://ci.appveyor.com/api/projects/status/kb4b4rcsm4t60bg5/branch/develop?svg=true
+
+[70]: https://img.shields.io/travis/limix/liknorm-py/develop.svg
+
+[71]: https://readthedocs.org/projects/limix/badge/?version=develop
+
+[72]: https://img.shields.io/travis/limix/limix/develop.svg
+
+[73]: https://readthedocs.org/projects/ndarray-listener/badge/?version=develop
+
+[74]: https://img.shields.io/travis/limix/ndarray-listener/develop.svg
+
+[75]: https://readthedocs.org/projects/numpy-sugar/badge/?version=develop
+
+[76]: https://img.shields.io/travis/limix/numpy-sugar/develop.svg
+
+[77]: https://readthedocs.org/projects/optimix/badge/?version=develop
+
+[78]: https://img.shields.io/travis/limix/optimix/develop.svg
+
+[79]: https://readthedocs.org/projects/pandas-plink/badge/?version=develop
+
+[80]: https://img.shields.io/travis/limix/pandas-plink/develop.svg
+
+[81]: https://img.shields.io/travis/limix/progressbar/develop.svg
+
+[82]: https://ci.appveyor.com/api/projects/status/ccu47dffb2qvi8sa/branch/develop?svg=true
+
+[83]: https://readthedocs.org/projects/scipy-sugar/badge/?version=develop
+
+[84]: https://img.shields.io/travis/limix/scipy-sugar/develop.svg
