@@ -6,8 +6,8 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
+title:            Limix
+tagline:          'Genetic analysis toolbox'
 description:      'A flexible and fast mixed model toolbox for genetic analysis.'
 url:              https://limix.github.io
 baseurl:          /
@@ -19,7 +19,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.0.12
 
 github:
-  repo:           https://github.com/limix/limix.github.io
+  repo:           https://github.com/limix/limix
