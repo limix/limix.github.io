@@ -3,28 +3,23 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Limix is a flexible and efficient generalised linear mixed model library with
+interfaces to Python for genomic analyses.
+It includes methods for
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+* Single-variant association and interaction testing
+* Variance decomposition analysis with linear mixed models
+* Association and interaction set tests
+* Different utils for statistical analysis, basic i/o, and plotting
 
-There are currently two themes built on Poole:
+## Authors
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* [Christoph Lippert][1]
+* [Danilo Horta][2]
+* [Francesco Paolo Casale][3]
+* [Oliver Stegle][4]
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+[1]: https://github.com/clippert
+[2]: https://github.com/horta
+[3]: https://github.com/fpcasale
+[4]: https://github.com/ostegle
