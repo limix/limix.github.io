@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 Limix is a flexible and efficient generalised linear mixed model library with

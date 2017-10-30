@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Status
+permalink: /status/
 ---
 
 Latest release versions, build status, and documentation status for

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Install
+permalink: /install/
 ---
 
 The recommended way of installing Limix is via [conda][1] package management
