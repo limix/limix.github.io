@@ -250,11 +250,11 @@ a.sidebar-nav-item:focus {
 }
 
 
-/* Blueish */
+/* EBI */
 .theme-base-10 .sidebar {
   background-color: #2A6267;
 }
 .theme-base-10 .content a,
 .theme-base-10 .related-posts li a:hover {
-  color: #2A6267;
+  color: #007C82;
 }
