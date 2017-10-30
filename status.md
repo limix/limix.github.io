@@ -3,6 +3,9 @@ layout: page
 title: Status
 ---
 
+Latest release versions, build status, and documentation status for
+dependencies managed by our team.
+
 ## Release
 
 | software         | github-release | pypi    | conda-forge |
