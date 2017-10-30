@@ -10,8 +10,9 @@
     </div>
 
     <nav class="sidebar-nav">
-      {% assign absolute_baseurl = site.baseurl | absolute_url %}
-      <a class="sidebar-nav-item{% if page.url == absolute_baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+      {% assign apageurl = page.url | absolute_url %}
+      {% assign abaseurl = site.baseurl | absolute_url %}
+      <a class="sidebar-nav-item{% if apageurl == abaseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -32,6 +33,6 @@
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-    <p>&copy; {{ page.url }} - {{ node.url }} - {{ site.baseurl }} - {{ absolute_baseurl }}. All rights reserved.</p>
+    <p>&copy; {{ page.url }} - {{ node.url }} - {{ site.baseurl }} - {{ abaseurl }}. All rights reserved.</p>
   </div>
 </div>
