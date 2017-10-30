@@ -9,7 +9,7 @@ title:            Limix
 tagline:          'Genetic analysis toolbox'
 description:      'A flexible and fast mixed model toolbox for genetic analysis.'
 url:              https://limix.github.io
-baseurl:          /
+baseurl:          ""
 
 author:
   name:           'Danilo Horta'
